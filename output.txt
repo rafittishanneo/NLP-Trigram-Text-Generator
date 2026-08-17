@@ -1,0 +1,37 @@
+Raw text length: 112310
+
+
+Vocabulary size: 3014
+Total tokens: 20804
+Sample: ['the', 'tragedie', 'of', 'julius', 'caesar', 'by', 'william', 'shakespeare', 'actus', 'primus']
+
+
+Trigram contexts: 14582
+Sample: {('the', 'tragedie'): Counter({'of': 2}), ('tragedie', 'of'): Counter({'julius': 1, 'ivlivs': 1})}
+
+
+Smoothed contexts: 14582
+Sample probs:
+('the', 'tragedie'): {'of': 0.0009946949602122016}
+
+
+Seed: the king
+Generated (30 words): the king bleeding sweatie tarry practice arriu rankes answering reueng lying cast strength dishonor mooue selfe richer angel voyce reade blaze with confesse vndone therein security deci yawn ancestor braue
+
+
+Test sentence: the king is dead
+Perplexity: 9084196.00
+
+
+#bonus
+Preprocessing
+Vocabulary size: 3014
+Total tokens: 20804
+
+Text Generation - Laplace Smoothing
+Seed: the king
+Generated: the king defence spurre vaunting vseth mutiny reade sixe falser philosophy large cly mourning drowsily promise heauens range countrymen metellus vnder very crowd leysure steeds time interim remaines lepidus shapes
+
+Perplexity
+Test sentence: the king is dead
+Perplexity: 3014.00
